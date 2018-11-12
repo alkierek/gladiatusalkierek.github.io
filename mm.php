@@ -1,0 +1,18 @@
+<?php
+0 => array("name" => "Wooden shield", "soul-bound" => true, "armour" => 40, "level" => 2, "value" => 36, "image" => "2_2", "type" => 4, "size" => 16, "bsize" => 1),
+1 => array("name" => "Club", "soul-bound" => true, "damage" => "1 - 3", "level" => 1, "value" => 14, "image" => "1_1", "type" => 2, "size" => 2, "bsize" => 1),
+2 => array("name" => "Short sword", "soul-bound" => true, "damage" => "2 - 2", "level" => 1, "value" => 14, "image" => "1_2", "type" => 2, "size" => 8, "bsize" => 1),
+3 => array("name" => "Fish", "soul-bound" => true, "heal" => 49, "from_intelligence" => 25, "combined" => "Bread rolls, Bread", "max_item_level" => 1, "level" => 1, "value" => 8, "image" => "7_3", "type" => 64, "size" => 1, "bsize" => 1),
+4 => array("name" => "Bread", "soul-bound" => true, "heal" => 55, "from_intelligence" => 25, "level" => 1, "value" => 11, "image" => "7_2", "type" => 64, "size" => 1, "bsize" => 1),
+5 => array("name" => "Myrmillo", "soul-bound" => false, "armour" => 35, "constitution" => 2, "level" => 7, "value" => 316, "image" => "4_3", "type" => 1, "size" => 16, "bsize" => 1),
+6 => array("name" => "Leather armour", "soul-bound" => false, "armour" => 15, "level" => 1, "value" => 44, "image" => "3_2", "type" => 8, "size" => 16, "bsize" => 1),
+7 => array("name_purple" => "Lucius Half plate of Chakra", "soul-bound" => true, "damage_+" => "6", "armour" => 2795, "strength_%" => 18, "constitution" => 15, "charisma" => 19, "charisma_%" => 17, "crit_attack" => 32, "block" => 71, "hardening" => 19, "threat" => 45, "armour_add_green" => 246, "level" => 107, "value" => 17015, "image" => "3_5", "type" => 8, "size" => 32, "bsize" => 32),
+8 => array("name_green" => "Short dagger", "soul-bound" => true, "damage" => "4 - 10", "intelligence" => 2, "level" => 5, "value" => 160, "image" => "1_3", "type" => 2, "size" => 2, "bsize" => 32),
+9 => array("name" => "Copper gloves", "soul-bound" => true, "armour" => 9, "level" => 3, "value" => 39, "image" => "5_3", "type" => 256, "size" => 16, "bsize" => 1),
+10 => array("name" => "Leather battle boots", "soul-bound" => true, "armour" => 24, "level" => 4, "value" => 84, "image" => "8_4", "type" => 512, "size" => 16, "bsize" => 1),
+11 => array("name_green" => "Carnelian pendant", "soul-bound" => true, "constitution" => 2, "level" => 6, "value" => 405, "image" => "9_3", "type" => 1024, "size" => 1, "bsize" => 1),
+12 => array("name_blue" => "Marcus Ruby ring of Cleverness", "soul-bound" => true, "intelligence" => 23, "intelligence_%" => 14, "healing" => 162, "crit_heal" => 40, "level" => 102, "value" => 22815, "image" => "6_6", "type" => 48, "size" => 1, "bsize" => 1),
+13 => array("name_blue" => "Towershield", "soul-bound" => true, "armour" => 103, "level" => 7, "value" => 299, "image" => "2_7", "type" => 4, "size" => 32, "bsize" => 1),
+14 => array("name_blue" => "Zeindras Silvershield of Madness", "soul-bound" => true, "damage_+" => 3, "armour" => 820, "health" => 2, "dexterity" => 4, "dexterity_%" => 6, "agility_%" => 8, "agility_add_green" => 6, "level" => 87, "value" => 17651, "image" => "2_6", "type" => 4, "size" => 16, "bsize" => 32),
+15 => array("name" => "Battle sickle", "soul-bound" => false, "damage" => "1 - 4", "level" => 2, "value" => 168, "image" => "1_4", "type" => 2, "size" => 32, "bsize" => 1),
+?>

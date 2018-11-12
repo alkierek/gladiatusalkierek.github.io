@@ -1,0 +1,349 @@
+/* Login Form */
+
+div#login {
+	width: 880px;
+	position: absolute;
+	top: 212px;
+	left: 125px;
+}
+div#login h2 {
+	font-size: 14px;
+	color: #b8a366;
+	float: left;
+	margin: 0;
+    margin-right: 10px;
+    width: 290px;
+    text-align: right;
+}
+div#login form {
+	margin: 0;
+	position: relative;
+}
+div#login form fieldset {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+div#login form p {
+	margin: 0;
+    margin-right: 5px;
+	float: left;
+}
+div#login form p#loginTOC {
+	clear: both;
+	font-size: 9px;
+	color: #b8a366;
+	position: absolute;
+	bottom: 4px;
+	left: 300px;
+	_left: 0;
+}
+div#login form label {
+	position: absolute;
+	left: -9999px;
+}
+div#login form input,
+div#login form select {
+	color: #251e10;
+	font: bold 12px Arial, sans-serif;
+	width: 154px;
+	border: 2px solid #71613f;
+	border-color: #251e10 #71613f #71613f #251e10;
+	background: #8e7e59;
+}
+div#login form input.input-text {
+	padding: 2px 5px;
+    width: 120px;
+    height: 14px;
+}
+div#login form p.input-select span {
+	display: block;
+	border: 2px solid #71613f;
+	border-color: #251e10 #71613f #71613f #251e10;
+}
+div#login form p.input-select select {
+	border: none;
+    height: 19px;
+    width: 160px;
+}
+div#login input#loginsubmit {
+	width: 113px;
+	height: 42px;
+	background: url(../img/ui/btn_loginsubmit.png) no-repeat;
+	text-align: center;
+	font: bold 13px Arial, sans-serif;
+	text-transform: uppercase;
+	border: none;
+	position: relative;
+	top: -3px;
+}
+
+/* Registration Form */
+
+div#sidebar_inner h2 {
+	color: #ffce38;
+	font-size: 22px;
+	line-height: 1.2;
+	text-align: center;
+	margin: 0 0 15px 0;
+}
+div#sidebar_inner form fieldset {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+div#sidebar_inner form p {
+	margin: 0 0 10px 0;
+}
+div#sidebar_inner form label {
+	display: block;
+	color: #ffad38;
+	background: url(../img/ui/layout/icon_arrow_yellow.gif) no-repeat 1px 0.35em;
+	padding: 0;
+    padding-left: 12px;
+}
+div#sidebar_inner form div.input_wrap {
+	display: block;
+	width: 195px;
+	border: 1px solid #ffad38;
+    position: relative;
+    margin-bottom: 10px;
+}
+div#sidebar_inner form div.input_wrap_error {
+
+    display: block;
+	width: 195px;
+	border: 2px solid red;
+    position: relative;
+    margin-bottom: 10px;    
+}
+div#sidebar_inner form div.input_wrap_success {
+	display: block;
+	width: 195px;
+	border: 1px solid lime;
+    position: relative;
+    margin-bottom: 10px;
+}
+div.input_wrap input, div.input_wrap_error input, div.input_wrap_success input {
+	font: 100% Arial, sans-serif;
+	color: #612d04;
+	background: #ffedd3;
+	width: 183px;
+	border: 1px solid #170000;
+	margin: 0;
+	padding: 3px 5px;
+}
+div#sidebar_inner form select {
+	border: 1px solid #170000;
+	background: #ffedd3;
+	font: 100% Arial, sans-serif;
+	color: #612d04;
+	width: 100%;
+}
+div#sidebar_inner form select option {
+
+}
+
+div#sidebar_inner form div.input-checkbox input {
+	float: left;
+}
+div#sidebar_inner form div.input-checkbox label {
+	display: block;
+	margin: 0;
+    margin-left: 25px;
+	padding: 0;
+	background: none;
+}
+div#sidebar_inner form div.input-checkbox label a {
+	color: #ff8a00;
+	font-weight: bold;
+}
+div#sidebar_inner form input#registersubmit {
+	font: 18px Arial, sans-serif;
+	color: #78150b;
+	font-weight: bold;
+	text-transform: uppercase;
+	text-align: center;
+	width: 197px;
+	height: 60px;
+	padding: 0;
+	border: none;
+	background: url(../img/ui/btn_registersubmit.png) no-repeat 50% 0;
+    cursor: pointer;
+}
+
+.register_error {
+    color: red;
+    display:block;
+    font-size: 10px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.register_input_error {
+    border: 1px solid red;
+}
+
+.registerError_Box {
+    display:none;
+    position:absolute;
+    margin: 0px;
+    z-index:20;
+    padding:0;
+    padding-left: 15px;
+    width: 300px;
+    top: 0px;
+    left: 200px;
+}
+
+.registerError_Content {
+    -moz-box-shadow:0 0 4px #000000;
+    background:url("../img/ui/tooltip-bg.png") repeat-x scroll 0 0 #5C0400;
+    border:1px solid #111111;
+    color:#DDC494;
+    font-family:Arial,Helvetica,sans-serif;
+    font-size:11px;
+    font-weight:normal;
+    width:100%;
+}
+
+.registerError_Arrow {
+    background:url("../img/ui/layout/tooltip-arrow.gif") no-repeat scroll 0 0 transparent;
+    height:15px;
+    left:2px;
+    position:absolute;
+    top:5px;
+    width:15px;
+}
+
+.registerError_Icon {
+    background:url("../img/ui/warning.gif") no-repeat scroll 5px 2px transparent;
+    padding-top:4px;
+    padding-right: 10px;
+    padding-bottom: 4px;
+    padding-left: 25px;
+}
+
+#krieger
+{
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:20px;
+	background-image:url(../img/signup_screen.jpg);
+	width:516px;
+	height:489px;
+}
+
+.login_logout_div
+{
+	position:relative;
+	left: 260px;
+	width:210px;
+	top: 40px;
+}
+
+div#content ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+div.wallpaperBox {
+    margin-top: 3px;
+}
+
+div.wallpaper {
+    float:left;
+    text-align:center;
+    margin-right:3px;
+    width: 165px;
+}
+
+div.wallpaper a {
+    display:block;
+}
+
+#flash_header_animation
+{
+    position:absolute;
+    top: 32px;
+    left: -273px;
+    width:1451px;
+    height:175px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#flash_flagpole_left
+{
+    position:absolute;
+    top: 283px;
+    left: -140px;
+    width:51px;
+    height:143px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#flash_flags_left
+{
+    position:absolute;
+    top: 340px;
+    left: -20px;
+    width:21px;
+    height:37px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#flash_torch_left
+{
+    position:absolute;
+    top: 616px;
+    left: -133px;
+    width:80px;
+    height:153px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#flash_flagpole_right
+{
+    position:absolute;
+    top: 263px;
+    right: -211px;
+    width:51px;
+    height:145px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#flash_flags_right
+{
+    position:absolute;
+    top: 340px;
+    right: -78px;
+    width:38px;
+    height:38px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#flash_torch_right
+{
+    position:absolute;
+    top: 616px;
+    right: -138px;
+    width:80px;
+    height:156px;
+    z-index:100;
+    overflow:hidden;
+}
+
+#store_badge {
+    margin-top: 20px;
+}
+
+#store_badge a {
+    text-decoration: none;
+}

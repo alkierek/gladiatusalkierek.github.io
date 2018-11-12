@@ -1,0 +1,15 @@
+#myWorkContent{
+    width:328px;
+    height:224px;
+    border: 1px solid #bed5cd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+
+#myWorkContent a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#myWorkContent img {border: 0;}

@@ -1,0 +1,6 @@
+<script type="text/javascript" src="8501/js/blackoutdialog.js"></script><div id="blackoutDialogsoulboundConfirm" class="cancel_confirm"><div class="blackoutDialog_header pngfix">
+<div id="header_soulboundConfirm" style="font-size:large;text-align:center"><?php echo $attention; ?></div></div><div class="blackoutDialog_body pngfix"><div class="blackoutDialog_icon"><img src="8501/img/ui/blackoutDialog/icon_hint.jpg"/></div>
+<div id="dialogTxtsoulboundConfirm" class="blackoutDialog_text"><p><?php echo $dialog31; ?></p></div><br class="clearfloat" /><table class="blackoutDialog_buttons" cellspacing="0" cellpadding="0"><tr>
+<td id="buttonleftsoulboundConfirm" style="width:50%"><div class="al" style="padding:5px"><input type="submit" class="awesome-button big" value="<?php echo $dialog32; ?>" onclick="doDragDrop()" id="linksoulboundConfirm" /></div></td>
+<td id="buttonrightsoulboundConfirm" style="width:50%"><div class="ar" style="padding:5px"><input type="submit" class="awesome-button big" value="<?php echo $cancel; ?>" onclick="cancelDragDrop()" id="linkcancelsoulboundConfirm" /></div></td>
+</tr></table></div><div class="blackoutDialog_footer pngfix"></div></div>
